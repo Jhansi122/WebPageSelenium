@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="33.912" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\Selenium\Spring tool suite\Code\Webpage.selenium\target\test-classes;C:\Program Files\Selenium\Spring tool suite\Code\Webpage.selenium\target\classes;C:\Users\JHANSI\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\JHANSI\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\JHANSI\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\JHANSI\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\JHANSI\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\JHANSI\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\JHANSI\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\JHANSI\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\JHANSI\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\JHANSI\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\JHANSI\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\JHANSI\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\JHANSI\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\JHANSI\.m2\repository\com\aventstack\extentreports\3.0.0\extentreports-3.0.0.jar;C:\Users\JHANSI\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\JHANSI\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\JHANSI\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\JHANSI\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\JHANSI\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\JHANSI\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\JHANSI\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\JHANSI\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\JHANSI\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\JHANSI\AppData\Local\Temp\surefire6556163584346520809\surefirebooter3291632626036431594.jar C:\Users\JHANSI\AppData\Local\Temp\surefire6556163584346520809 2019-02-19T14-51-49_445-jvmRun1 surefire5294189299009003795tmp surefire_05352513394755219048tmp"/>
+    <property name="surefire.test.class.path" value="C:\Program Files\Selenium\Spring tool suite\Code\Webpage.selenium\target\test-classes;C:\Program Files\Selenium\Spring tool suite\Code\Webpage.selenium\target\classes;C:\Users\JHANSI\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\JHANSI\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\JHANSI\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\JHANSI\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\JHANSI\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\JHANSI\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\JHANSI\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\JHANSI\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\JHANSI\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\JHANSI\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\JHANSI\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\JHANSI\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\JHANSI\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\JHANSI\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\JHANSI\.m2\repository\com\aventstack\extentreports\3.0.0\extentreports-3.0.0.jar;C:\Users\JHANSI\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\JHANSI\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\JHANSI\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\JHANSI\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\JHANSI\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\JHANSI\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\JHANSI\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\JHANSI\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\JHANSI\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\JHANSI"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="basedir" value="C:\Program Files\Selenium\Spring tool suite\Code\Webpage.selenium"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\JHANSI\AppData\Local\Temp\surefire6556163584346520809\surefirebooter3291632626036431594.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="JHANSI"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\JHANSI\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JHANSI\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="C:\Program Files\Selenium\Spring tool suite\Code\Webpage.selenium"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/client;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/i386;C:\Program Files\Selenium\Apache Maven\apache-maven-3.5.4\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Selenium\Apache Maven\apache-maven-3.5.4\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Selenium\Apache Maven\apache-maven-3.5.4\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\System32;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Selenium\Apache TomCat\apache-tomcat-8.5.34\bin;C:\Program Files\Selenium\Apache TomCat\apache-tomcat-8.5.34\lib\servlet-api.jar;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Selenium\Apache TomCat\apache-tomcat-8.5.34\bin;C:\Program Files\Selenium\Apache TomCat\apache-tomcat-8.5.34\lib\servlet-api.jar;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Selenium\Apache TomCat\apache-tomcat-8.5.34\bin;C:\Program Files\Selenium\Apache TomCat\apache-tomcat-8.5.34\lib\servlet-api.jar;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Selenium\Spring tool suite\sts-bundle\sts-3.9.6.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="mouseHover" classname="Webpage.EcommerceTest" time="1.535"/>
+  <testcase name="dropdown" classname="Webpage.EcommerceTest" time="6.107">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=72.0.3626.109)&#10;  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;&#10;System info: host: &apos;JHANSI-PC&apos;, ip: &apos;192.168.55.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\JHANSI\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57846}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}&#10;Session ID: da0f01a5c45aeeb4d37a96ee6671f33b&#10;*** Element info: {Using=tag name, value=option}" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'JHANSI-PC', ip: '192.168.55.105', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\JHANSI\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57846}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: da0f01a5c45aeeb4d37a96ee6671f33b
+*** Element info: {Using=tag name, value=option}
+	at Webpage.EcommerceTest.dropdown(EcommerceTest.java:81)
+</failure>
+    <system-out><![CDATA[Total number of links in the webpage is 216
+Link text = 
+Link text = 
+Link text = Features
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Customers
+Link text = 
+Link text = 
+Link text = Extensions Store
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Theme Store
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Support
+Link text = 
+Link text = 
+Link text = 
+Link text = Blogs
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Skip to navigation
+Link text = Skip to content
+Link text = LOG IN WITH WORDPRESS.COM
+Link text = GET STARTED
+Link text = 
+Link text = 
+Link text = All Extensions
+Link text = Marketing
+Link text = Marketing
+Link text = Email
+Link text = Multi-channel
+Link text = Promotions
+Link text = Reporting
+Link text = Social
+Link text = All Extensions
+Link text = Bundles
+Link text = Enhancements
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Free
+Link text = Marketing
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Payments
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Product Type
+Link text = Shipping
+Link text = 
+Link text = 
+Link text = 
+Link text = Store Management
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = Subscriptions
+Link text = Third Party
+Link text = 
+Link text = FIND OUT MORE
+Link text = WooCommerce Points and Rewards
+Reward your customers for purchases and other actions with points which can be redeemed for discounts.
+$129.00
+Link text = Dynamic Pricing
+Bulk discounts, role-based pricing and much more
+$129.00
+Link text = PayPal Checkout now with Smart Payment Buttons™, dynamically displays, PayPal, Venmo, PayPal Credit, or other local payment options in a single stack giving customers the choice to pay with their preferred option.
+$0.00
+Link text = Dynamic Pricing
+Rated 4.07 out of 5
+Bulk discounts, role-based pricing and much more
+$129.00
+Link text = Smart Coupons
+Rated 4.76 out of 5
+Enhance your coupon options – create gift certificates, store credit, coupons based on purchases and more.
+$99.00
+Link text = Add advanced event tracking and enhanced eCommerce tracking to your WooCommerce site.
+$79.00
+Link text = WooCommerce Points and Rewards
+Reward your customers for purchases and other actions with points which can be redeemed for discounts.
+$129.00
+Link text = URL Coupons
+Add a unique URL to a coupon code that automatically applies a discount and (optionally) adds products to the customer’s shopping cart.
+$49.00
+Link text = Free Gift Coupons
+Give away a free item to any customer with the coupon code With WooCommerce Free Gift Coupons.
+$29.00
+Link text = PDF Product Vouchers
+Customize and sell downloadable PDF vouchers for products
+$129.00
+Link text = WooCommerce Store Credit
+Generate store credit coupons that enable customers to make multiple purchases until the total value specified is exhausted or the coupons life expires.
+$29.00
+Link text = Review for Discount
+Reward your reviewers with discount coupons
+$29.00
+Link text = Show coupon discount info using shortcodes. Allows to render coupon information and content conditionally, based on the validity of coupons.
+$0.00
+Link text = Account Funds
+Account Funds will allow your customers to deposit funds into their accounts for which you can reward them with discounts.
+$79.00
+Link text = Group Coupons
+Automatically apply and restrict coupon validity for user groups. Offer exclusive, automatic and targeted discounts for your customers.
+$49.00
+Link text = 2
+Link text = NEXT ?
+Link text = 
+Link text = money back guarantee
+Link text = Support
+Link text = Safe & Secure
+Link text = About
+Link text = Our Mission
+Link text = Giving Back
+Link text = Team
+Link text = Work With Us
+Link text = Style Guide
+Link text = Features
+Link text = Extension Store
+Link text = eCommerce blog
+Link text = Development blog
+Link text = Ideas board
+Link text = Mobile App
+Link text = Storefront
+Link text = WooSlider
+Link text = Sensei
+Link text = Sensei Extensions
+Link text = Documentation
+Link text = Customizations
+Link text = Support Policy
+Link text = Contact
+Link text = Pre-sales FAQ
+Link text = Success Stories
+Link text = Hosting Solutions
+Link text = Design Feedback Group
+Link text = 
+Link text = 
+Link text = 
+Link text = 
+Link text = TERMS & CONDITIONS
+Link text = PRIVACY POLICY
+Link text = An Automattic company
+]]></system-out>
+  </testcase>
+  <testcase name="addingtoCart" classname="Webpage.EcommerceTest" time="10.289"/>
+  <testcase name="extentReport" classname="Webpage.EcommerceTest" time="0.367"/>
+</testsuite>
